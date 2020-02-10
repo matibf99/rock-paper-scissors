@@ -1,0 +1,110 @@
+html {
+    background: rgb(32, 32, 32);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white
+}
+
+h1 {
+    margin: 40px auto;
+    width: auto;
+    color: white;
+    text-align: center;
+    background-color: seagreen;
+    border: solid 1px green;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 0px lightgreen;
+    padding: 15px 20px;
+    max-width: 500px;
+}
+
+#score_board {
+    margin: 0 auto;
+    padding: 12px 16px;
+    text-align: center;
+    font-size: x-large;
+    max-width: 400px;
+    background-color: peru;
+    border: solid 1px orange;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 0 lightsalmon;
+}
+
+#status {
+    margin: 40px auto 30px auto;
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+}
+
+#human, #computer {
+    margin: 4px 80px;
+    display: inline-block;
+}
+
+.option_selected {
+    height: 200px;
+    width: 200px;
+}
+
+h2 {
+    text-align: center;
+}
+
+span {
+    text-align: center;
+}
+
+.center {
+    display: inline;
+}
+
+.option_select {
+    height: 200px;
+    width: 200px;
+}
+
+#title_options {
+    margin: 50px auto 20px auto;
+}
+
+#options {
+    text-align: center;
+}
+
+#option_rock, #option_paper, #option_scissors {
+    display: inline-block;
+    margin: 10px 15px;
+}
+
+.option {
+    height: 150px;
+    transition: all .07s ease;
+}
+
+.option:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#reset {
+    margin: 30px auto 0 auto;
+    padding: 12px 16px;
+    max-width: 120px;
+    text-align: center;
+    font-size: larger;
+    background-color: grey;
+    border: solid 1px lightslategray;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 0 lightgrey;
+    transition: all .07s ease;
+}
+
+#reset:hover {
+    transform: scale(1.1);
+    background-color: lightsalmon;
+    border: solid 1px lightpink;
+    box-shadow: 0 0 2px 0 lightsalmon;
+    cursor: pointer;
+}

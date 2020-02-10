@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock, Paper, Scissors!</title>
+</head>
+<body>
+    <h1>Rock, Paper, Scissors!</h1>
+
+    <div id="score_board">
+        Human
+        <span id="human_score">0</span>
+        :
+        <span id="computer_score">0</span>
+        Computer
+    </div>
+
+    <h2 id="status">Click any option to start playing! Wins whoever gets 5 points first</h2>
+
+    <div id="container">
+        <div id="human">
+            <h2>Human</h2>
+            <div class="option_select" id="select_human">
+                <img src="img/interrogation.png" id="option_select_human" class="option_selected">
+            </div>
+        </div>
+        <div id="computer">
+            <h2>Computer</h2>
+            <div class="option_select" id="select_computer">
+                <img src="img/interrogation.png" id="option_select_computer" class="option_selected">
+            </div>
+        </div>
+    </div>
+
+    <h2 id="title_options">Select an option</h2>
+    <div id="options">
+        <div id="option_rock">
+            <img src="img/rock.png" id="btn_rock" class="option">
+        </div>
+        <div id="option_paper">
+            <img src="img/paper.png" id="btn_paper" class="option">
+        </div>
+        <div id="option_scissors">
+            <img src="img/scissors.png" id="btn_scissors" class="option">
+        </div>
+    </div>
+
+    <div id="reset">RESET</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
